@@ -5,6 +5,11 @@
 //     divAzul.style.backgroundColor = 'green'
 // })
 
-const cards = 
-document.getElementsByClassName("card");
-cards[0].style.background = "red";
+
+// const cards = 
+// document.getElementsByClassName("josue");
+// cards[0].style.backgroundColor = "red";
+
+const imagens = 
+document.getElementsByTagName("img");
+console.log('temos ${imagens:length} img');
